@@ -12,6 +12,5 @@ class Shs < Formula
     system "cmake", ".", *std_cmake_args
     system "make"
     system "make", "install"
-    system "echo hello !!"
   end
 end
